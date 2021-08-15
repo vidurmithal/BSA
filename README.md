@@ -1,7 +1,7 @@
 # Impact of fires on air quality in northern India
 ## Using this repo
 1. Run `git clone https://github.com/vidurmithal/BSA.git`.
-2. Install dependencies by running `pip install -r requirements.txt`. Note that this is likely to run into trouble due to compatibility issues between geospatial packages, particularly `fiona` and `gdal`. Read more [here](https://geopandas.org/getting_started/install.html#installing-with-pip).  A better option would be to create a new `conda` environment with the required packages by running `conda create --name <env> --file requirements2.txt`.
+2. Install dependencies by running `pip install -r requirements.txt`. Note that this is likely to run into trouble due to compatibility issues between geospatial packages, particularly `fiona` and `gdal`. Read more [here](https://geopandas.org/getting_started/install.html#installing-with-pip). A better option would be to create a new `conda` environment with the required packages by running `conda create --name <env> --file requirements2.txt`.
 3. Run notebook `fires-aq-covid.ipynb`. 
 
 ## Background
@@ -16,6 +16,5 @@ The primary focus is on fire incidence data, which is obtained from NASA's VIIRS
 We also consider meteorological data from the ERA5 reanalysis in order to develop a more robust model correlating fires with air quality. 
 
 # Results
-![Covid-induced lockdown had a short-term impact on air quality.](https://github.com/vidurmithal/BSA/blob/main/outputs/aq-time-series.png?raw=true)
-
-![](outputs/fire-distribution.png)
+![Covid-induced lockdown had a short-term impact on air quality.](outputs/aq-time-series.png)
+![Distribution of satellite-detected fires in 2019 and 2020.](outputs/fire-distribution.png)
