@@ -1,6 +1,6 @@
 # Impact of fires on air quality in northern India
 ## Using this repo
-1. Run `git clone https://github.com/vidurmithal/BSA.git`.
+1. Run `git clone https://github.com/vidurmithal/covid-fire-aq.git`.
 2. Install dependencies by running `pip install -r requirements.txt`. Note that this is likely to run into trouble due to compatibility issues between geospatial packages, particularly `fiona` and `gdal`. Read more [here](https://geopandas.org/getting_started/install.html#installing-with-pip). A better option would be to create a new `conda` environment with the required packages by running `conda create --name <env> --file requirements2.txt`.
 3. Run notebook `fires-aq-covid.ipynb`. 
 
