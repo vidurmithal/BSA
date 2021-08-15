@@ -16,5 +16,9 @@ The primary focus is on fire incidence data, which is obtained from NASA's VIIRS
 We also consider meteorological data from the ERA5 reanalysis in order to develop a more robust model correlating fires with air quality. 
 
 # Results
+### Covid-induced lockdown had a short-term impact on air quality
 ![Covid-induced lockdown had a short-term impact on air quality.](outputs/aq-time-series.png)
+### Satellites detected significantly fewer fires in the summer of 2020 compared to 2019
 ![Distribution of satellite-detected fires in 2019 and 2020.](outputs/fire-distribution.png)
+### Post-lockdown months saw a significant reduction in PM2.5 concentrations compared to baseline values
+![Post-lockdown months saw a significant reduction in PM2.5 concentrations compared to baseline values](outputs/pm25-reductions.png)
